@@ -1,0 +1,59 @@
+mgauna Maria Gauna
+
+
+*****
+Command: (Date) Sun Sep  1 05:55:48 PM UTC 2024
+
+*****
+Command: (whoami) mgauna
+
+*****
+Command: (ifconfig) enp0s1: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.64.8  netmask 255.255.255.0  broadcast 192.168.64.255
+        inet6 fe80::2cb4:c3ff:fe1e:99e8  prefixlen 64  scopeid 0x20<link>
+        inet6 fd22:76b5:c314:5f44:2cb4:c3ff:fe1e:99e8  prefixlen 64  scopeid 0x0<global>
+        ether 2e:b4:c3:1e:99:e8  txqueuelen 1000  (Ethernet)
+        RX packets 222887  bytes 194378570 (194.3 MB)
+        RX errors 0  dropped 6780976  overruns 0  frame 0
+        TX packets 76690  bytes 21485072 (21.4 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 133879  bytes 24189885 (24.1 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 133879  bytes 24189885 (24.1 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+
+*****
+Command: (ping sparta.cs.uiowa.edu -c 10) PING vitalstatistix.cs.uiowa.edu (128.255.96.116) 56(84) bytes of data.
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=1 ttl=49 time=20.5 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=2 ttl=49 time=22.8 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=3 ttl=49 time=21.9 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=4 ttl=49 time=24.6 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=5 ttl=49 time=17.2 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=6 ttl=49 time=17.2 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=7 ttl=49 time=26.3 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=8 ttl=49 time=25.1 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=9 ttl=49 time=15.9 ms
+64 bytes from vitalstatistix.cs.uiowa.edu (128.255.96.116): icmp_seq=10 ttl=49 time=22.2 ms
+
+--- vitalstatistix.cs.uiowa.edu ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9032ms
+rtt min/avg/max/mdev = 15.864/21.376/26.344/3.427 ms
+
+*****
+Command: (traceroute sparta.cs.uiowa.edu -m 10) traceroute to sparta.cs.uiowa.edu (128.255.96.116), 10 hops max, 60 byte packets
+ 1  _gateway (192.168.64.1)  2.465 ms  2.280 ms  2.155 ms
+ 2  192.168.0.1 (192.168.0.1)  3.890 ms  3.736 ms  3.493 ms
+ 3  10.164.3.1 (10.164.3.1)  10.680 ms  10.509 ms  16.692 ms
+ 4  172.30.11.9 (172.30.11.9)  16.368 ms  16.240 ms  16.038 ms
+ 5  10.16.72.57 (10.16.72.57)  15.945 ms  15.270 ms  15.179 ms
+ 6  10.16.72.3 (10.16.72.3)  15.674 ms  15.208 ms  14.883 ms
+ 7  hu0-1-0-3.chgil001cr1.mchsi.com (68.66.73.118)  21.784 ms  15.121 ms  15.479 ms
+ 8  64-237-30-206.client.mchsi.com (64.237.30.206)  18.825 ms  18.549 ms  18.432 ms
+ 9  rtr-border-bsb.net.uiowa.edu (198.49.182.14)  18.251 ms  18.070 ms  17.671 ms
+10  fw-border-vlan-3600.net.uiowa.edu (128.255.2.41)  17.548 ms  17.941 ms  16.937 ms
