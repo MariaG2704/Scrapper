@@ -1,6 +1,55 @@
 msgauna Maria Gauna 
 
- 
- User [41864] has joined 
 
-User [41864] has left the chat 
+The server has been created and connected to 5000
+
+The server is now listening.
+
+User [39064] has joined
+
+User [57956] has joined
+
+ User [57956] sent: [Hi]
+
+User [39064] recieved message: [Hi] from User [57956]
+
+
+ User [39064] sent: [Hello]
+
+User [57956] recieved message: [Hello] from User [39064]
+
+
+User [51884] has joined
+
+ User [51884] sent: [Hi everyone!]
+
+User [57956] recieved message: [Hi everyone!] from User [51884]
+
+User [39064] recieved message: [Hi everyone!] from User [51884]
+
+
+ User [57956] sent: [Hey]
+
+User [39064] recieved message: [Hey] from User [57956]
+
+User [51884] recieved message: [Hey] from User [57956]
+
+
+User [51884] has left the chat
+
+ User [57956] sent: [This is a test]
+
+User [39064] recieved message: [This is a test] from User [57956]
+
+
+ User [39064] sent: [Oh test. Ok bye]
+
+User [57956] recieved message: [Oh test. Ok bye] from User [39064]
+
+
+User [39064] has left the chat
+
+ User [57956] sent: [bye]
+
+
+User [57956] has left the chat
