@@ -6,7 +6,7 @@ Intructions on how to run server:<br />
 
 Intructions on how to run client: <br />
     1. Open new terminal in the A2 folder <br />
-    2. Input python3 client.py (host) (port) in the command line, making sure that you port and host are the same as the server <br />
+    2. Input python3 client.py (host) (port) in the command line, making sure that you port and host are the same as the server. In this instance the host is localhost <br />
     3. Follow instructions on screen for disscusions <br />
     4. Other client messages will be shown on screen <br />
     4. Press (/quit) to exit server <br />
