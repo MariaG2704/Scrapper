@@ -1,2 +1,1 @@
-# Example of a `.gitattributes` file which reclassifies `.css` files as JavaScript:
-.rb linguist-language= PYTHON
+.html linguist-detectable=false
